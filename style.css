@@ -1,0 +1,72 @@
+/* Stiluri de bază pentru întregul site */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4; /* Fundal gri deschis */
+  margin: 0;
+  padding: 0;
+  color: #333; /* Culoare text gri închis */
+}
+
+/* Stiluri pentru header */
+header {
+  background-color: #007bff; /* Fundal albastru */
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+/* Stiluri pentru meniul de navigație */
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* Centrare pe orizontală */
+}
+
+nav ul li {
+  margin: 0 15px; /* Spațiere între elemente */
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none; /* Fără subliniere */
+  font-weight: bold;
+}
+
+/* Stiluri pentru secțiuni */
+main {
+  padding: 20px;
+}
+
+.section {
+  display: none; /* Secțiunile sunt ascunse inițial */
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Stiluri pentru butoane */
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #0056b3; /* Culoare mai închisă la hover */
+}
+
+/* Stiluri pentru footer */
+footer {
+  background-color: #333; /* Fundal gri închis */
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
+}
