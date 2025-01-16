@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interfață Interactivă</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Site-ul Meu Interactiv</h1>
+    <nav>
+      <ul>
+        <li><a href="#home" onclick="showSection('home')">Acasă</a></li>
+        <li><a href="#about" onclick="showSection('about')">Despre</a></li>
+        <li><a href="#services" onclick="showSection('services')">Servicii</a></li>
+        <li><a href="#contact" onclick="showSection('contact')">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="content">
+    <section id="home" class="section">
+      <h2>Acasă</h2>
+      <p>Acesta este site-ul meu interactiv!</p>
+      <button onclick="alert('Ai apăsat butonul Acasă!')">Apasă aici!</button>
+    </section>
+    
+    <section id="about" class="section" style="display: none;">
+      <h2>Despre Noi</h2>
+      <p>Informații despre site-ul meu sau afacerea mea.</p>
+      <button onclick="alert('Ai apăsat Despre!')">Apasă aici pentru mai multe informații!</button>
+    </section>
+
+    <section id="services" class="section" style="display: none;">
+      <h2>Servicii</h2>
+      <p>Oferim servicii excelente!</p>
+      <button onclick="alert('Ai apăsat Servicii!')">Vezi mai multe servicii!</button>
+    </section>
+
+    <section id="contact" class="section" style="display: none;">
+      <h2>Contact</h2>
+      <p>Cum poți să mă contactezi.</p>
+      <button onclick="alert('Ai apăsat Contact!')">Contactează-mă!</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Site-ul Meu Interactiv. Toate drepturile rezervate.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
