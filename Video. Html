@@ -1,0 +1,12 @@
+<section id="home" class="section">
+  <h2>Acasă</h2>
+  <p>Aici găsești informații introductive despre site-ul meu.</p>
+
+  <!-- Video -->
+  <video controls width="100%">
+    <source src="video.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <button onclick="alert('Ai apăsat pe Acasă!')">Apasă pe mine!</button>
+</section>
